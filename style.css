@@ -146,7 +146,11 @@ section::before{
         
     width: calc(10vw - 2px);
     height: calc(10vw - 2px);
-    }   
+    } 
+    section span:hover{
+        background-color:goldenrod;
+        transition: 0.5s;
+    }  
 }
 @media (max-width: 500px) {
     section span{
@@ -154,4 +158,22 @@ section::before{
     width: calc(20vw - 2px);
     height: calc(20vw - 2px);
     }   
+    section span:hover{
+        background-color:goldenrod;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 300) {
+    section .signin {
+        position: absolute;
+        width: 270px;
+        background: rgb(41, 38, 38);
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        box-shadow: -1em 0 .4em rgb(73, 73, 72);
+        border-radius: 3px;
+      }
 }
