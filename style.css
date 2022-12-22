@@ -163,10 +163,10 @@ section::before{
         transition: 0.5s;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     section .signin {
         position: absolute;
-        width: 314px;
+        width: 289px;
         background: rgb(41, 38, 38);
         z-index: 1000;
         display: flex;
@@ -177,8 +177,10 @@ section::before{
         border-radius: 3px;
       }
      
+      
+     
       section span:hover{
         background-color:goldenrod;
-        transition: 0s;
+        transition: 0.5s;
     }
 }
